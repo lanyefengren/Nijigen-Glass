@@ -1,19 +1,20 @@
-# CherryStudioTheme.css - Cherry Studio 主题
+# NijigenGlass.css - Cherry Studio 主题
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Cherry Studio v2](https://img.shields.io/badge/Cherry%20Studio-v2-blueviolet.svg)]()
 
-面向 **Cherry Studio v2** 适配的高性能主题，采用 shadcn 语义变量与玻璃拟态（Glassmorphism）设计，支持浅色/深色双主题，并跟随客户端设置的主题色（`--primary`）自动变色。
+面向 **Cherry Studio v2** 适配的主题，采用 shadcn 语义变量与玻璃拟态（Glassmorphism）设计，支持浅色/深色双主题，并跟随客户端设置的主题色（`--primary`）自动变色。
 
 ## 更新记录
 
 - **2026.09.15**：因 Cherry Studio 更新导致旧主题无法使用，现已适配更新。删去了衬线字体（可在设置页自行调整字体）；将部分元素由写死的绿色改为与用户自定义主题色保持一致；保留原有的遮罩设置。
+- **2026.10.02**：修复了右键上下文菜单 / 下拉列表 —— 选中(高亮)项：使用用户主题色，让选中态更明显。
 
 ## 安装
 
 ### 使用方式：直接下载
 
-1. 复制或下载 `CherryStudioTheme.css` 文件
+1. 复制或下载 `NijigenGlass.css` 文件
 2. 打开 Cherry Studio 设置
 3. 进入 **「显示设置」→「自定义CSS」**
 4. 导入或粘贴 CSS 内容

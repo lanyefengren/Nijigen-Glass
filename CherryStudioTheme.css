@@ -1,5 +1,5 @@
 /**
- * @file CherryStudioTheme.css (Cherry Studio v2 适配版)
+ * @file NijigenGlass.css (Cherry Studio v2 适配版)
  * @description High-performance dark theme for Cherry Studio v2
  *
  * @copyright Copyright (C) 2025 lanyefengren
@@ -535,6 +535,17 @@ code {
 .ant-dropdown-menu-submenu .ant-dropdown-menu {
     background: var(--gradient-dropdown) !important;
     border-radius: var(--radius) !important;
+}
+
+/* 右键上下文菜单 / 下拉列表 —— 选中(高亮)项：用用户主题色，让选中态更明显
+   覆盖 antd 右键菜单（.ant-dropdown-menu-item-selected / :hover）
+   与 Radix/shadcn 上下文菜单（[data-highlighted]），颜色与左侧栏选中态一致 */
+.ant-dropdown .ant-dropdown-menu-item-selected:not(.ant-dropdown-menu-item-disabled),
+.ant-dropdown .ant-dropdown-menu-item:not(.ant-dropdown-menu-item-disabled):hover,
+[data-slot="dropdown-menu-item"][data-highlighted],
+[data-highlighted] {
+    background-color: color-mix(in srgb, var(--primary) 15%, transparent) !important;
+    color: var(--primary) !important;
 }
 
 /* ================================================================
