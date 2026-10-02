@@ -47,7 +47,7 @@
     --transition-easing: ease-in-out;
     --radius: var(--cs-radius-lg, 12px);
 
-    --chat-background-image: url("https://s41.ax1x.com/2026/09/15/pnnUuCD.png");/*浅色主题背景图片*/
+    --chat-background-image: url("https://tu.lanyeh.top/file/1790912175603_1789379250494.png");/*浅色主题背景图片*/
     --overlay-color: rgba(255, 255, 255, 0.5);/*浅色主题遮罩颜色*/
 
     /* 玻璃参数（自命名 --glass 前缀，避免与官方变量冲突）
@@ -103,7 +103,7 @@
  * 深色主题
  * ================================================================ */
 .dark {
-    --chat-background-image: url("https://s41.ax1x.com/2026/09/15/pnntTyR.png");/*深色主题背景图片*/
+    --chat-background-image: url("https://tu.lanyeh.top/file/1790912182156_1789379549534.png");/*深色主题背景图片*/
     --overlay-color: rgba(0, 0, 0, 0.65);/*深色主题遮罩颜色*/
 
     --glass: rgba(33, 33, 33, 0.92);        /* 卡片层 */
